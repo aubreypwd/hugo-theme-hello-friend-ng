@@ -1,6 +1,7 @@
 $color-green: #78d18b;
 $color-orange: #fd9353;
 $color-bright: #706e73;
+$color-white: white;
 
 .dark-theme {
 	.sharing-buttons svg,
@@ -19,6 +20,16 @@ $color-bright: #706e73;
 	.post-info,
 	.pagination {
 		color: $color-bright;
+	}
+
+	.post-content a {
+		color: $color-white;
+		text-decoration: none;
+		border-bottom: 1px dotted $color-bright;
+
+		&:hover {
+			border-bottom: 1px solid $color-white;
+		}
 	}
 
 	.post-item {

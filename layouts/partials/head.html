@@ -11,9 +11,9 @@
 {{ block "title" . }}
     <title>
         {{ if .IsHome }}
-            {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &#8250; {{ . }} {{ end }}
+            {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &mdash; {{ . }} {{ end }}
         {{ else }}
-            {{ .Title }} &#8250; {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &#8250; {{ . }}{{ end }}
+            {{ .Title }} @ {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &mdash; {{ . }}{{ end }}
         {{ end }}
     </title>
 {{ end }}

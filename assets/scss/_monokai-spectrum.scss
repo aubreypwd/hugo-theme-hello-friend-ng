@@ -1,0 +1,18 @@
+$color-green: #78d18b;
+$color-orange: #fd9353;
+$color-bright: #706e73;
+
+.dark-theme {
+	.sharing-buttons svg,
+	.home-social svg {
+		color: $color-bright;
+	}
+
+	.footer__content span:nth-child(3) svg {
+		color: $color-orange;
+	}
+
+	.header {
+		color: $color-bright;
+	}
+}

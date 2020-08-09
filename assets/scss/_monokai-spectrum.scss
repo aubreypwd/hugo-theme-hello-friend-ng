@@ -10,6 +10,13 @@ $color-header: #222222;
 		color: $color-bright;
 	}
 
+	.menu {
+		a:hover {
+			text-decoration: none;
+			color: $color-white;
+		}
+	}
+
 	.footer__content span:nth-child(3) svg {
 		color: $color-orange;
 	}
@@ -30,6 +37,11 @@ $color-header: #222222;
 		&:hover {
 			border-bottom: 1px solid $color-white;
 		}
+	}
+
+	hr {
+		color: $color-bright;
+		opacity: 0.4;
 	}
 
 	.post-item {

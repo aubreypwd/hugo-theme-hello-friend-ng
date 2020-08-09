@@ -27,6 +27,11 @@
     }
   }
 
+  .post-day,
+  .post-year {
+    font-family: 'Share Tech Mono', monospace;
+  }
+
   &-list {
     flex-grow: 1;
     margin: 0;

@@ -12,7 +12,16 @@ $color-bright: #706e73;
 		color: $color-orange;
 	}
 
-	.header {
+	&.home h1,
+	.header,
+	.post-day,
+	.post-year,
+	.post-info,
+	.pagination {
 		color: $color-bright;
+	}
+
+	.post-item {
+		border-bottom-color: $color-bright;
 	}
 }

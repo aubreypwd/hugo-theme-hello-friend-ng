@@ -330,3 +330,8 @@ hr {
 	text-decoration: none;
 	z-index: 100000;
 }
+
+.footer__content span:nth-child(2),
+.footer__content span:first-child {
+  display: none;
+}

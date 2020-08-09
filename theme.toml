@@ -1,15 +1,20 @@
 name = "hello-friend-ng"
 license = "MIT"
-licenselink = "https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md"
-description = "A simple theme for Hugo. That's it."
+licenselink = "https://github.com/aubreypwd/hugo-theme-hello-friend-ng/blob/master/LICENSE.md"
+description = "A simple theme for Hugo. That's it. (Fork of Djordje Atlialp version)"
 tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
 features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.30
 
 [author]
+  name = "Aubrey Portwood"
+  homepage = "https://aubreypwd.com"
+  twitter = "https://twitter.com/aubreypwd"
+
+[original]
   name = "Djordje Atlialp"
-  homepage = "https://atlialp.com"
-  twitter = "https://twitter.com/rhazdon"
+  homepage = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
+  repo = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
 
 [original]
   name = "hello-friend"

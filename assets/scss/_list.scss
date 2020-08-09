@@ -69,4 +69,8 @@
       @include dimmed;
     }
   }
+
+  &>h1 {
+    display: none;
+  }
 }

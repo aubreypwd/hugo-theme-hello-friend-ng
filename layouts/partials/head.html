@@ -13,7 +13,7 @@
         {{ if .IsHome }}
             {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &mdash; {{ . }} {{ end }}
         {{ else }}
-            {{ .Title }} @ {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &mdash; {{ . }}{{ end }}
+            {{ .Title }} &#8250; {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} &mdash; {{ . }}{{ end }}
         {{ end }}
     </title>
 {{ end }}

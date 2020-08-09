@@ -82,13 +82,13 @@ disableHugoGeneratorInject = false
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-  themeColor = "#252627"
+  themeColor = "#222222"
 
   # Colors for favicons
   [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+    mask = "#222222"
+    msapplication = "#222222"
+    theme = "#222222"
 
   [params.logo]
     logoText     = "$ cd /home/"

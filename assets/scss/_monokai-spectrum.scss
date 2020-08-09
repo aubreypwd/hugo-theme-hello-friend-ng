@@ -1,19 +1,38 @@
 $color-green: #78d18b;
 $color-orange: #fd9353;
 $color-bright: #706e73;
-$color-white: white;
+$color-text: #dad5e1;
+$color-white: $color-text;
 $color-header: #222222;
 
 .dark-theme {
+	.logo__text {
+		&:hover {
+			color: $color-white;
+		}
+	}
+
 	.sharing-buttons svg,
 	.home-social svg {
 		color: $color-bright;
+	}
+
+	.theme-toggle.unselectable {
+		&:hover {
+			svg {
+				color: $color-white;
+			}
+		}
 	}
 
 	.menu {
 		a:hover {
 			text-decoration: none;
 			color: $color-white;
+
+			&:before {
+				color: $color-bright;
+			}
 		}
 	}
 
@@ -22,6 +41,7 @@ $color-header: #222222;
 	}
 
 	&.home h1,
+	.post-title,
 	.header,
 	.post-day,
 	.post-info,
@@ -46,6 +66,12 @@ $color-header: #222222;
 
 	.post-item {
 		border-bottom-color: $color-bright;
+	}
+
+	.post-title {
+		a:hover {
+			color: $color-text;
+		}
 	}
 
 	.sharing-buttons a:hover svg,

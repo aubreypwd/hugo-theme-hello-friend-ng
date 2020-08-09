@@ -4,10 +4,12 @@ body.home h1 {
 	font-size: 300%;
 }
 
-.menu {
-	text-transform: lowercase;
-}
-
 .home-social {
 	margin-top: 20px;
+}
+
+body.home {
+	.content {
+		margin: 40px 0 0 0;
+	}
 }

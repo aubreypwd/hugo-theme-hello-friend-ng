@@ -61,6 +61,12 @@
         padding: 12px 0;
         text-decoration: none;
       }
+
+      &:first-child {
+        a {
+          padding-top: 0;
+        }
+      }
     }
 
     &-day {

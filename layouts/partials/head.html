@@ -26,6 +26,8 @@
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
 {{ range $val := $.Site.Params.customCSS }}
     {{ if gt (len $val) 0 }}
         <link rel="stylesheet" type="text/css" href="{{ $val }}">

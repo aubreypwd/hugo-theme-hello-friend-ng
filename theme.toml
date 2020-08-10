@@ -15,8 +15,3 @@ min_version = 0.30
   name = "Djordje Atlialp"
   homepage = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
   repo = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
-
-[original]
-  name = "hello-friend"
-  homepage = "https://github.com/panr/hugo-theme-hello-friend"
-  repo = "https://github.com/panr/hugo-theme-hello-friend"

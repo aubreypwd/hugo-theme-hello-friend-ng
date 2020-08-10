@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
     </head>
 
-    <body class="{{ .File.BaseFileName }} {{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .IsHome }} home {{- end -}}">
+    <body class="{{ with .File }}{{ .BaseFileName }}{{ end }} {{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .IsHome }} home {{- end -}}">
         <div class="container">
             {{ partial "header.html" . }}
 
